@@ -1,0 +1,482 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+	 /* font-family: 'Merriweather', sans-serif; */
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+body {
+  background: #F7F7F7;
+  color: #1B1E21;
+  position: relative;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a, a:hover, a:visited {
+	color: #90775A;
+}
+
+li {
+  margin-bottom: 0.6em;
+	
+}
+
+.navbar-hbb {
+  font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: none;
+	margin-bottom: 0.6em;
+	margin-top: 1.2em;
+	width: 100%;
+	
+}
+
+.navbar-brand {
+  background-image: url('/images/logo.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 68px;
+  padding: 0;
+}
+
+
+.navbar a {
+  color: #303030;
+}
+
+.navbar li {
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  padding: 10px;
+	
+	display: inline-block !important;
+}
+
+.icon-bar {
+  background-color: #303030;
+}
+
+div.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+section.copy-section {
+	max-width: 760px;
+	margin: 2em auto;
+}
+
+
+div.header_frame {
+  padding-top: 2em;
+  margin-bottom: 3em;
+}
+
+
+div.about_frame {
+  background-color: #f0f0f0;
+  width: 100%;
+  padding: 2em;
+  
+}
+
+h1,h2,h3 {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.3em;
+}
+
+h1 {
+	margin-top: 1.2em;
+	margin-bottom: 0.6em;
+}
+
+
+h2 {
+
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 24px;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+
+.actions {
+  font-family: 'Merriweather', serif;
+  color: #90775A;
+}
+
+.actions a {
+  color: #90775A;
+  text-decoration: none;
+  border-bottom: 1px solid #C1BBB4;
+}
+
+
+p.lead {
+	  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  font-style: normal;
+	line-height: inherit;
+}
+
+.small {
+  font-size: 0.8em;
+  line-height: 1.8em;
+}
+
+.light {
+  color:#808080;
+}
+
+
+.container hr {
+border: none;
+background-color: rgba(0,0,0,0.8);
+height: 5px;
+width: 15%;
+margin: 3em auto;
+}
+
+.role {
+	font-family: Merriweather, serif;
+	font-size: 0.95em;
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.role .container {
+  padding: 1.5em 0;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.accent .container {
+	border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+
+.role section {
+	width: 80%;
+}
+
+
+.work_item {
+  background-color: #fff;
+	direction: rtl;
+}
+
+.work_item .container {
+	display: table;
+}
+
+.work_item:nth-child(2n) {
+	background-color: #F7F7F7;
+	direction: ltr;
+}
+
+.work_item_image {
+	display: table-cell;
+	width: 600px;
+	height: 600px;
+	padding: 40px;
+	vertical-align: middle;
+}
+
+div.meta  {
+	width: 320px;
+	height: 100%;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 1.4em;
+	font-size: 0.8em;
+	direction: ltr;
+}
+
+div.meta p  {
+	
+}
+
+
+
+.btn-primary, .btn-primary:visited  {
+	font-size: 0.9em;
+	border: solid 2px #90775A;
+	border-radius: 0px;
+	background: none;
+	color: #90775A;
+	text-decoration: none;
+	transition: all 0.1s ease-in;
+}
+
+.btn-primary:hover, .btn-primary:active {
+	border: solid 2px #90775A;
+	background-color: #90775A;
+	color: #fff;
+}
+
+
+.meta .tags {
+
+  font-family: 'Merriweather', serif;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #ccc;
+	font-size: 0.7em;
+}
+
+div.work_item h2 {
+	font-size: 1.6em;
+  margin-bottom: 0.2em;
+}
+
+
+p.caption {
+	font-family: 'Merriweather', serif;
+	margin: 1em auto 2em auto;
+	font-size: 0.7em;
+	color: #606060;
+}
+
+strong {
+	font-family: 'Merriweather', serif;
+	font-size: 0.96em;
+}
+
+
+
+#zvooq_mobile .work_item_image {
+	background-image: url('/images/portfolio_zvooq_mobile.png');
+}
+
+#zvooq_web .work_item_image {
+	background-image: url('/images/portfolio_zvooq.png');
+}
+
+#di .work_item_image {
+	background-image: url('/images/portfolio_di_site.png');
+}
+
+
+/* Fonoteka page */
+
+
+.accented_back {
+  background: #e8e8e8;
+  background-size: cover;
+  background-position: center top;
+}
+
+
+
+span.nobrline {
+  display:block;
+}
+
+
+.about-me {
+  border-top: 4px solid #303030;
+  margin-top: 4em !important; 
+  padding: 2em 0 2em;
+}
+
+
+
+/* Jumbotron */
+
+.container .jumbotron, .container-fluid .jumbotron {
+  margin-top: 2em;
+  border-radius: 0;
+  border: 1px solid #303030;
+  background: none;
+}
+
+.jumbotron h3 {
+  margin-top: 1em;
+}
+
+
+/* Buttons */
+
+.bottombuttons {
+  margin: 2em auto 0;
+  padding: 3em;
+  border-top: 0px;
+
+}
+
+.btn-default {
+  border-radius: 0;
+  border: 3px solid #303030;
+}
+
+.btn-default:hover {
+  background: #303030;
+  border: 3px solid #303030;
+  color: #fff;
+}
+
+
+/* ------- PORTFOLIO PAGE MODIFICATIONS ------- */ 
+
+.portfolio .navbar a {
+  color: #303030;
+}
+
+.portfolio h1 {
+  font-size: 2.4em;
+  color: #303030;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+}
+
+.portfolio  h2 {
+  text-align: left;
+}
+
+div.video {
+  background: #202020;
+  padding: 0;
+  margin-top: 2em;
+  max-height: 400px;
+}
+
+/* Footer */
+
+div.footer {
+  background-color: #202020;
+  width: 100%;
+  min-height: 10em;
+  color: #606060;
+  font-size: 0.6em;
+  text-align: center;
+  padding: 3em 2em 2em 2em;
+}
+
+.footer a, .footer a:visited {
+  text-decoration:none;
+  color: #606060;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #888;
+}
+
+span.icon-github {
+  background: url('/images/github.svg');
+  background-size: cover;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+	margin-top:-4px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+div.cell {
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.instagram {
+	background: #202020;
+	padding: 30px 30px 0 30px;
+	color: #999;	
+}
+
+.instaitem {
+	margin-bottom: 30px;
+}
+
+.socialfooter {
+	padding-bottom: 2em;
+	border-bottom: 1px #404040 solid;
+	max-width: 768px;
+	margin: 0 auto 2em auto;
+}
+
+.socialfooter a {
+	opacity: 0.6;
+	margin: 0 0.5em;
+	transition: all 0.1s ease-in;
+}
+
+.socialfooter a:hover {
+	opacity: 1;
+}
+
+.face-portrait {
+	padding: 3em 1em 3em 0;
+}
+
+.face-meta {
+	 padding: 3em 0 3em 1em;
+}
+
+
+
+/* ------- COLLAPSE OVERRIDE ------- */ 
+
+ul.nav { float:right !important; }
+.navbar-header {width: 100%;}
+
+.navbar li {	
+	display: inline-block !important;
+}
+
+/* ------- MEDIA QUERIES ------- */ 
+
+/* Portrait tablets and small desktops */
+@media(min-width:768px){
+  html, body { font-size: 22px; line-height: 1.6em;}
+  h1 { font-size: 1.6em; }
+  h2 {font-size: 1.8em;}
+  h3 {font-size: 1.2em;}
+  h4 {font-size: 1.4em;}
+  span.nobrline { display:inline; }
+  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand { margin-left: 0px;}
+  
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	h1 { font-size: 1.6em; }
+  div.work_item { height: 32	0px; direction: ltr;}
+  .navbar-brand {margin-left: 15px;}
+	span.nobrline { display:inline; }
+  html, body { font-size: 20px; line-height: 1.4em;}
+	.work_item_image, div.meta {display:block; height: auto; padding: 20px; width: auto;}
+	div.meta {padding-top: 0; padding-bottom: 60px; font-size: 1em;}
+	
+	
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+  div.work_item div.image { height: 140px; }
+	.navbar li { padding: 10px 0px; letter-spacing: 0; }
+	.navbar li a { padding: 10px 5px; }
+	html, body { font-size: 18px; line-height: 1.4em;}
+	h1 {font-size: 1.4em}
+	.work_item_image {padding: 30px 0 0 0}
+	div.meta {padding: 0 0 40px 0; font-size: 0.9em;}
+	
+	.face-portrait, .face-meta { padding: 1em 0em; }
+	.face-portrait { padding-top: 2em;}
+	
+}
+
+
+@media (min-width: 1200px) {
+		
+    html, body { line-height: 1.6em;}
+		h1 { font-size: 1.8em; }
+}

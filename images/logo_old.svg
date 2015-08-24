@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="68px" viewBox="0 0 60 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon 1 + Line + Line</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-38.000000, -35.000000)">
+            <g id="Polygon-1-+-Line-+-Line" sketch:type="MSLayerGroup" transform="translate(36.000000, 37.000000)">
+                <polygon id="Polygon-1" stroke="#202020" stroke-width="3" stroke-linejoin="round" sketch:type="MSShapeGroup" points="32 0 59.7128129 16 59.7128129 48 32 64 4.28718708 48 4.28718708 16 "></polygon>
+                <path d="M8.5,18.5 L57.5000003,46.4999991" id="Line" stroke="#999999" stroke-linecap="round" stroke-dasharray="0.05,3,0.05,3" sketch:type="MSShapeGroup"></path>
+                <path d="M8.5,45.4999991 L57.5000003,17.5" id="Line" stroke="#999999" stroke-linecap="round" stroke-dasharray="0.05,3,0.05,3" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
